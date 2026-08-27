@@ -1,0 +1,3 @@
+case_id,seed,observed_text,rendered_text_ok,mask_coverage_ok,style_match_1_to_5,visual_quality_1_to_5,reviewer,notes
+content-hangul-001,42,,yes,yes,,,reviewer-1,
+content-amount-001,42,,yes,yes,,,reviewer-1,

@@ -1,0 +1,12 @@
+# Private source documents, masks, and generated outputs
+private-inputs/
+cases/manifest.jsonl
+runs/
+reviews/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Local environment files
+.env
