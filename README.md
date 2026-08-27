@@ -2,6 +2,8 @@
 
 This repository provides a reproducible baseline protocol for evaluating TextFlux on Korean document fields. It is designed for controlled measurement before any domain adaptation or style-conditioning work.
 
+It is an independent evaluation harness and is not an official release of the TextFlux project.
+
 It does not include model weights, Docker images, document scans, masks, handwriting samples, generated outputs, or personal information.
 
 ## What this kit measures
