@@ -57,6 +57,12 @@ sudo docker run --rm --network none \
 
 After validation passes, run the suite using the existing image and model payload. See [docs/server-runbook.md](docs/server-runbook.md).
 
+## Included safe demo inputs
+
+The repository includes a generic Korean form and matching masks under `examples/demo-inputs/`. They allow a first content-path run without using a real form or personal data. Copy them to the private input root and use `examples/demo-manifest.jsonl`; see [examples/README.md](examples/README.md).
+
+The demo is not evidence of performance on a real foreign-exchange form and does not test handwriting-style transfer.
+
 ## Scope and decision rule
 
 This is an evaluation harness, not a claim that TextFlux can already synthesize Korean handwriting at a required quality level. Do not begin adaptation training until the content track has been run on target-like documents and reviewed.

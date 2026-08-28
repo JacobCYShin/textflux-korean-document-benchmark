@@ -95,7 +95,7 @@ def check_mask(path: Path, expected_size: tuple[int, int]) -> None:
 
     with Image.open(path) as image:
         grayscale = image.convert("L")
-        values = grayscale.getdata()
+        values = grayscale.get_flattened_data()
         total = grayscale.width * grayscale.height
         white = 0
         non_binary = 0

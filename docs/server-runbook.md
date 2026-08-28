@@ -31,6 +31,17 @@ sudo docker run --rm --network none \
 
 Validation must finish with `VALIDATION PASSED`. Fix every error before inference.
 
+### Optional: first run with the included generic demo
+
+Use this only to validate the Korean document content path before approved target documents are available:
+
+```bash
+cp -a "$BENCH_ROOT/examples/demo-inputs/." "$INPUT_ROOT/"
+cp "$BENCH_ROOT/examples/demo-manifest.jsonl" "$BENCH_ROOT/cases/manifest.jsonl"
+```
+
+Run the validation command above after copying these files. The demo does not evaluate real-form fidelity or handwriting style.
+
 ## 3. Run the fixed-seed baseline suite
 
 ```bash
